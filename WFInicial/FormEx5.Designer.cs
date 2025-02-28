@@ -1,6 +1,6 @@
 ﻿namespace WFInicial
 {
-    partial class FormEx4
+    partial class FormEx5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,99 +28,99 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnMaior = new Button();
+            txtNum3 = new TextBox();
+            lblNum3 = new Label();
+            btnMaiorEMenor = new Button();
             txtNum2 = new TextBox();
             txtNum1 = new TextBox();
             lblNum2 = new Label();
             lblNum1 = new Label();
-            lblNum3 = new Label();
-            txtNum3 = new TextBox();
             SuspendLayout();
             // 
-            // btnMaior
+            // txtNum3
             // 
-            btnMaior.Location = new Point(188, 209);
-            btnMaior.Name = "btnMaior";
-            btnMaior.Size = new Size(100, 23);
-            btnMaior.TabIndex = 9;
-            btnMaior.Text = "Mostrar Maior";
-            btnMaior.UseVisualStyleBackColor = true;
-            btnMaior.Click += btnMaior_Click;
+            txtNum3.Location = new Point(207, 160);
+            txtNum3.Name = "txtNum3";
+            txtNum3.Size = new Size(129, 23);
+            txtNum3.TabIndex = 18;
+            // 
+            // lblNum3
+            // 
+            lblNum3.AutoSize = true;
+            lblNum3.Location = new Point(123, 160);
+            lblNum3.Name = "lblNum3";
+            lblNum3.Size = new Size(60, 15);
+            lblNum3.TabIndex = 17;
+            lblNum3.Text = "Numero 3";
+            // 
+            // btnMaiorEMenor
+            // 
+            btnMaiorEMenor.Location = new Point(207, 220);
+            btnMaiorEMenor.Name = "btnMaiorEMenor";
+            btnMaiorEMenor.Size = new Size(129, 46);
+            btnMaiorEMenor.TabIndex = 16;
+            btnMaiorEMenor.Text = "Mostrar Maior e Menor";
+            btnMaiorEMenor.UseVisualStyleBackColor = true;
+            btnMaiorEMenor.Click += btnMaiorEMenor_Click;
             // 
             // txtNum2
             // 
-            txtNum2.Location = new Point(188, 107);
+            txtNum2.Location = new Point(207, 118);
             txtNum2.Name = "txtNum2";
-            txtNum2.Size = new Size(100, 23);
-            txtNum2.TabIndex = 8;
+            txtNum2.Size = new Size(129, 23);
+            txtNum2.TabIndex = 15;
             // 
             // txtNum1
             // 
-            txtNum1.Location = new Point(188, 69);
+            txtNum1.Location = new Point(207, 80);
             txtNum1.Name = "txtNum1";
-            txtNum1.Size = new Size(100, 23);
-            txtNum1.TabIndex = 7;
+            txtNum1.Size = new Size(129, 23);
+            txtNum1.TabIndex = 14;
             // 
             // lblNum2
             // 
             lblNum2.AutoSize = true;
-            lblNum2.Location = new Point(104, 115);
+            lblNum2.Location = new Point(123, 126);
             lblNum2.Name = "lblNum2";
             lblNum2.Size = new Size(57, 15);
-            lblNum2.TabIndex = 6;
+            lblNum2.TabIndex = 13;
             lblNum2.Text = "Numero2";
             // 
             // lblNum1
             // 
             lblNum1.AutoSize = true;
-            lblNum1.Location = new Point(104, 77);
+            lblNum1.Location = new Point(123, 88);
             lblNum1.Name = "lblNum1";
             lblNum1.Size = new Size(57, 15);
-            lblNum1.TabIndex = 5;
+            lblNum1.TabIndex = 12;
             lblNum1.Text = "Numero1";
             // 
-            // lblNum3
-            // 
-            lblNum3.AutoSize = true;
-            lblNum3.Location = new Point(104, 149);
-            lblNum3.Name = "lblNum3";
-            lblNum3.Size = new Size(60, 15);
-            lblNum3.TabIndex = 10;
-            lblNum3.Text = "Numero 3";
-            // 
-            // txtNum3
-            // 
-            txtNum3.Location = new Point(188, 149);
-            txtNum3.Name = "txtNum3";
-            txtNum3.Size = new Size(100, 23);
-            txtNum3.TabIndex = 11;
-            // 
-            // FormEx4
+            // FormEx5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(407, 313);
+            ClientSize = new Size(495, 421);
             Controls.Add(txtNum3);
             Controls.Add(lblNum3);
-            Controls.Add(btnMaior);
+            Controls.Add(btnMaiorEMenor);
             Controls.Add(txtNum2);
             Controls.Add(txtNum1);
             Controls.Add(lblNum2);
             Controls.Add(lblNum1);
-            Name = "FormEx4";
-            Text = "FormEx4";
+            Name = "FormEx5";
+            Text = "FormEx5";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button btnMaior;
+        private TextBox txtNum3;
+        private Label lblNum3;
+        private Button btnMaiorEMenor;
         private TextBox txtNum2;
         private TextBox txtNum1;
         private Label lblNum2;
         private Label lblNum1;
-        private Label lblNum3;
-        private TextBox txtNum3;
     }
 }
