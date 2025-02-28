@@ -18,7 +18,7 @@ namespace ConsoleRevisaoAula
             {
                 Console.WriteLine("Aprovado!");
             }
-            else if (false)
+            else if (media < 5)
             {
                 Console.WriteLine("Reprovado!");
             }
