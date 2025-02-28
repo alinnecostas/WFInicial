@@ -28,12 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormEx2";
+            IblDiaSemana = new Label();
+            txtDiaSemana = new TextBox();
+            btnEscolher = new Button();
+            SuspendLayout();
+            // 
+            // IblDiaSemana
+            // 
+            IblDiaSemana.AutoSize = true;
+            IblDiaSemana.Location = new Point(189, 96);
+            IblDiaSemana.Name = "IblDiaSemana";
+            IblDiaSemana.Size = new Size(88, 15);
+            IblDiaSemana.TabIndex = 0;
+            IblDiaSemana.Text = "Dia da Semana ";
+            // 
+            // txtDiaSemana
+            // 
+            txtDiaSemana.Location = new Point(283, 93);
+            txtDiaSemana.Name = "txtDiaSemana";
+            txtDiaSemana.Size = new Size(100, 23);
+            txtDiaSemana.TabIndex = 1;
+            // 
+            // btnEscolher
+            // 
+            btnEscolher.Location = new Point(401, 92);
+            btnEscolher.Name = "btnEscolher";
+            btnEscolher.Size = new Size(75, 23);
+            btnEscolher.TabIndex = 2;
+            btnEscolher.Text = "Escolher";
+            btnEscolher.UseVisualStyleBackColor = true;
+            btnEscolher.Click += btnEscolher_Click;
+            // 
+            // FormEx2
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnEscolher);
+            Controls.Add(txtDiaSemana);
+            Controls.Add(IblDiaSemana);
+            Name = "FormEx2";
+            Text = "FormEx2";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label IblDiaSemana;
+        private TextBox txtDiaSemana;
+        private Button btnEscolher;
     }
 }
