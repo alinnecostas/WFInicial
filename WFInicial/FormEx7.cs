@@ -12,6 +12,8 @@ namespace WFInicial
 {
     public partial class FormEx7 : Form
     {
+        public string[] nomesProdutos = new string[6];
+        public double[] valoresProdutos = new double[6];
         public FormEx7()
         {
             InitializeComponent();
@@ -19,9 +21,9 @@ namespace WFInicial
 
         private void btnCalcular_Click(object sender, EventArgs e)
         {
+            int quantVetor = nomesProdutos.Length;
 
 
- 
         }
     }
 }
