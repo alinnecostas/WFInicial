@@ -30,8 +30,8 @@
         {
             lblProduto = new Label();
             lblPrecoProduto = new Label();
-            txtNomeProdutos = new TextBox();
-            txtPreçoProdutos = new TextBox();
+            txtNomeProduto = new TextBox();
+            txtValorProduto = new TextBox();
             btnCadastrar = new Button();
             SuspendLayout();
             // 
@@ -53,19 +53,19 @@
             lblPrecoProduto.TabIndex = 6;
             lblPrecoProduto.Text = "Preço do Produto";
             // 
-            // txtNomeProdutos
+            // txtNomeProduto
             // 
-            txtNomeProdutos.Location = new Point(140, 76);
-            txtNomeProdutos.Name = "txtNomeProdutos";
-            txtNomeProdutos.Size = new Size(100, 23);
-            txtNomeProdutos.TabIndex = 7;
+            txtNomeProduto.Location = new Point(140, 76);
+            txtNomeProduto.Name = "txtNomeProduto";
+            txtNomeProduto.Size = new Size(100, 23);
+            txtNomeProduto.TabIndex = 7;
             // 
-            // txtPreçoProdutos
+            // txtValorProduto
             // 
-            txtPreçoProdutos.Location = new Point(140, 144);
-            txtPreçoProdutos.Name = "txtPreçoProdutos";
-            txtPreçoProdutos.Size = new Size(100, 23);
-            txtPreçoProdutos.TabIndex = 8;
+            txtValorProduto.Location = new Point(140, 144);
+            txtValorProduto.Name = "txtValorProduto";
+            txtValorProduto.Size = new Size(100, 23);
+            txtValorProduto.TabIndex = 8;
             // 
             // btnCadastrar
             // 
@@ -83,8 +83,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnCadastrar);
-            Controls.Add(txtPreçoProdutos);
-            Controls.Add(txtNomeProdutos);
+            Controls.Add(txtValorProduto);
+            Controls.Add(txtNomeProduto);
             Controls.Add(lblPrecoProduto);
             Controls.Add(lblProduto);
             Name = "FormEx7";
@@ -97,8 +97,8 @@
 
         private Label lblProduto;
         private Label lblPrecoProduto;
-        private TextBox txtNomeProdutos;
-        private TextBox txtPreçoProdutos;
+        private TextBox txtNomeProduto;
+        private TextBox txtValorProduto;
         private Button btnCadastrar;
     }
 }
