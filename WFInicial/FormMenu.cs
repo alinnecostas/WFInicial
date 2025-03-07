@@ -59,6 +59,10 @@ namespace WFInicial
             formEx7.ShowDialog();
         }
 
-     
+        private void btnEx8_Click(object sender, EventArgs e)
+        {
+            FormEx8 formEx8 = new FormEx8();
+            formEx8.ShowDialog();
+        }
     }
 }
